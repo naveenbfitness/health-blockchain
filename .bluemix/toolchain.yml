@@ -30,7 +30,7 @@ services:
           $text: pipeline.yml
         env:
           REPO: repo
-          CF_APP_NAME: 'fitchain'
+          CF_APP_NAME: 'health-blockchain'
           SPACE_NAME: '{{form.pipeline.parameters.app-space}}'
           ORG_NAME: '{{form.pipeline.parameters.app-organization}}'
           REGION_ID: '{{form.pipeline.parameters.app-region}}'
